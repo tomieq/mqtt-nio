@@ -8,8 +8,8 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-nio.git", from: "2.32.0"),
-        .package(url: "https://github.com/apple/swift-nio-ssl.git", from: "2.14.0"),
-        .package(url: "https://github.com/apple/swift-nio-transport-services.git", from: "1.11.0"),
+        .package(url: "https://github.com/apple/swift-nio-ssl.git", .exact("2.17.2")),
+        .package(url: "https://github.com/apple/swift-nio-transport-services.git", .exact("1.11.4")),
         .package(url: "https://github.com/apple/swift-log.git", from: "1.0.0"),
     ],
     targets: [
