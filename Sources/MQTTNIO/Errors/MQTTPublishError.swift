@@ -1,3 +1,4 @@
+import Foundation
 /// Errors that can occur when publishing a message to the broker.
 public enum MQTTPublishError: Error {
     /// The client reconnected to the broker and the session was cleared. Because of this, the publish was cancelled.

@@ -1,3 +1,5 @@
+import Foundation
+
 /// Errors that can be received when trying to connect to a broker.
 public enum MQTTConnectionError: Error {
     /// The connection was closed while performing a request.

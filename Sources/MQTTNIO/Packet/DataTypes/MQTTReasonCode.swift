@@ -1,3 +1,4 @@
+import Foundation
 
 enum MQTTReasonCode: UInt8 {
     case success                                = 0x00

@@ -1,3 +1,5 @@
+import Foundation
+
 extension String {
     
     /// Indicates whether the string is a valid MQTT topic to which can be published.

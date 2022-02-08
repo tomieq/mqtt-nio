@@ -1,3 +1,4 @@
+import Foundation
 /// Errors that can occur when subscribing to a topic on the broker.
 public enum MQTTSubscribeError: Error {
     /// One or more of the topic filters to subscribe to are invalid.

@@ -1,3 +1,4 @@
+import Foundation
 /// Errors that can occur while communicating with the broker.
 public struct MQTTProtocolError: Error {
     /// The code indicating the error reason.

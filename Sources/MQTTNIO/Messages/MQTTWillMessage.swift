@@ -1,3 +1,4 @@
+import Foundation
 import NIO
 
 /// Struct representing an MQTT message being send by the broker under certain conditions when a client disconnects.

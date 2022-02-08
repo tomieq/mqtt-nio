@@ -1,3 +1,5 @@
+import Foundation
+
 /// The response returned from the broker when unsubscribing from a single topic.
 public struct MQTTSingleUnsubscribeResponse {
     /// The result for unsubscribing.

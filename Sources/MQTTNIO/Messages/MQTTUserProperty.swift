@@ -1,3 +1,5 @@
+import Foundation
+
 /// Used to send or receive additional data with certain MQTT packets.
 public struct MQTTUserProperty: Equatable {
     

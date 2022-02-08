@@ -1,3 +1,5 @@
+import Foundation
+
 /// This  struct represents a subscription that can be made with an MQTT broker.
 public struct MQTTSubscription {
     /// The topic filter to which the client wants to subscribe.

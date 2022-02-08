@@ -1,3 +1,4 @@
+import Foundation
 import NIO
 
 /// A payload send with an MQTT message

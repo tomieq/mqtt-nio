@@ -1,3 +1,5 @@
+import Foundation
+
 /// A custom handler for acknowledgements of QoS 1 or 2 messages received from a 5.0 MQTT broker.
 ///
 /// This allows the user to send a custom failure reason to the broker, optionally with user properties.

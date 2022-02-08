@@ -1,3 +1,4 @@
+import Foundation
 import NIO
 
 /// Struct representing an MQTT message being send from or to the `MQTTClient`.

@@ -1,3 +1,4 @@
+import Foundation
 /// The reason the `MQTTClient` was disconnected.
 public enum MQTTDisconnectReason {
     /// The user requested to close the connection.

@@ -1,3 +1,4 @@
+import Foundation
 import NIO
 
 /// Response returned when the `MQTTClient` is connected to a broker.

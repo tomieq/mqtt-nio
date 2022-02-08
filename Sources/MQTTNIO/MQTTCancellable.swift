@@ -1,3 +1,4 @@
+import Foundation
 /// Cancellable object received when registering an observer callback with an `MQTTClient`.
 ///
 /// This object allows to stop receiving callbacks by calling `cancel`.

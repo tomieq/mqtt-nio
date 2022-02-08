@@ -1,3 +1,4 @@
+import Foundation
 
 /// The protocol version to use when connecting to a broker.
 public enum MQTTProtocolVersion: UInt8, Comparable, CaseIterable {
